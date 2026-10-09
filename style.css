@@ -1,0 +1,28 @@
+/* === التصميم المبسّط - الجوهر فقط === */
+:root {
+  --bg-dark: #0a0a0a;
+  --bg-card: #1a1a1a;
+  --accent: #a3ff12;      /* الأخضر الليموني - اللون البطل */
+  --text-main: #ffffff;
+  --text-dim: #a0a0a0;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  font-family: 'Segoe UI', sans-serif;  /* خط النصوص */
+}
+
+/* العناوين فقط هي التي "تصرخ" */
+h1, h2, h3 {
+  font-family: 'Permanent Marker', cursive;  /* خط يدوي من Google */
+  letter-spacing: 1px;
+}
+
+/* القاعدة الذهبية: accent color يستخدم بذكاء، ليس بكثرة */
+h1 { color: var(--text-main); }
+.accent-text { color: var(--accent); }
+.btn-primary {
+  background: var(--accent);
+  color: var(--bg-dark);  /* نص أسود على خلفية خضراء = تباين عالي */
+}
