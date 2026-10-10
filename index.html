@@ -1,20 +1,282 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>موقعي الشخصي</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Yassu is a multidisciplinary systems architect designing, building, and securing digital and physical experiences."
+    >
+    <meta name="theme-color" content="#080910">
+    <title>Yassu — Systems Architect &amp; Creative Developer</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header" id="home">
+      <a class="wordmark" href="#home" aria-label="Yassu, home">Yassu<span>.</span></a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#showreel">Showreel</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
 
-  <!-- الكود بتاعك بيبدأ من هنا -->
-  <header>
-    <h1>Hey, I'm <span class="accent-text">YASSU</span></h1>
-    <p>Programmer • Learner • Builder</p>
-    <button class="btn-primary">View Projects</button>
-  </header>
-  <!-- الكود بتاعك بينتهي هنا -->
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Hey, <span aria-hidden="true">↘</span> <strong>I'm</strong></p>
+          <h1 id="hero-title">YASSU<span>.</span></h1>
+          <div class="hero-scribble" aria-hidden="true"></div>
+          <p class="hero-roles">Full-Stack Dev <b>•</b> UI/UX Designer <b>•</b> Cyber Security</p>
+          <div class="hero-actions">
+            <a class="button button-lime" href="#showreel">▶ <span>Watch Showreel</span></a>
+            <a class="button button-outline" href="#projects">View Projects <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
 
-</body>
+        <div class="hero-art" role="img" aria-label="Illustration of a creative technologist waving">
+          <div class="hero-orbit orbit-one" aria-hidden="true"></div>
+          <div class="hero-orbit orbit-two" aria-hidden="true"></div>
+          <div class="speech-bubble">LET'S CREATE<br>SOMETHING<br><strong>AWESOME!</strong></div>
+          <svg class="hero-character" viewBox="0 0 420 440" aria-hidden="true">
+            <path d="M105 421c5-82 30-130 87-150l43-4c77 18 104 67 111 154Z" fill="#7124ff" stroke="#090a12" stroke-width="12" stroke-linejoin="round"/>
+            <path d="m167 281 68 85 57-86-45-20-41 5Z" fill="#f4eee7" stroke="#090a12" stroke-width="10" stroke-linejoin="round"/>
+            <path d="m194 283 42 45 29-47-34-22Z" fill="#c9ff24"/>
+            <path d="M132 160c0-83 45-126 111-126 70 0 116 43 116 127v62c0 84-52 129-119 129-67 0-108-52-108-133Z" fill="#e9a879" stroke="#090a12" stroke-width="12"/>
+            <path d="M128 167c-1-94 49-146 121-146 72 0 117 46 120 119-29-8-53-26-66-53-33 39-91 56-175 48Z" fill="#171520" stroke="#090a12" stroke-width="12" stroke-linejoin="round"/>
+            <path d="M162 220c12-10 28-10 39 0m54 0c12-10 28-10 39 0" fill="none" stroke="#15131a" stroke-width="9" stroke-linecap="round"/>
+            <path d="M208 270c18 16 39 17 59 0" fill="none" stroke="#7b3c42" stroke-width="8" stroke-linecap="round"/>
+            <path d="M140 180c-23-1-34 13-31 34 3 22 18 32 38 29m219-63c23-1 34 13 31 34-3 22-18 32-38 29" fill="#e9a879" stroke="#090a12" stroke-width="10"/>
+            <path d="M100 279c-37-8-50-38-34-59 12-16 34-10 51 5l35 38-5 64-32-22Z" fill="#e9a879" stroke="#090a12" stroke-width="11" stroke-linejoin="round"/>
+            <path d="m72 228-4-33m23 25 9-33m-35 49-25-20" fill="none" stroke="#090a12" stroke-width="9" stroke-linecap="round"/>
+            <path d="m335 318 32 18 17 38-39 1-26-28Z" fill="#e9a879" stroke="#090a12" stroke-width="10" stroke-linejoin="round"/>
+            <path d="m336 365-4 37m23-35 7 38m12-39 14 33" fill="none" stroke="#090a12" stroke-width="8" stroke-linecap="round"/>
+            <path d="M160 162c20 7 41 7 60 0m19-7c25 12 52 13 79 2" fill="none" stroke="#f4bd8c" stroke-width="6" stroke-linecap="round"/>
+          </svg>
+          <span class="art-star star-one" aria-hidden="true">✳</span>
+          <span class="art-star star-two" aria-hidden="true">✦</span>
+        </div>
+
+        <a class="scroll-cue" href="#showreel"><span></span> Scroll Down</a>
+      </section>
+
+      <section class="showreel section-wrap" id="showreel" aria-labelledby="showreel-title">
+        <div class="showreel-copy">
+          <p class="section-kicker">A little bit of everything</p>
+          <h2 class="marker-heading" id="showreel-title"><span aria-hidden="true">☆</span> SHOWREEL</h2>
+          <p>A live walkthrough showing physical hardware, interactive UX dashboards, and secure backend code working in tandem.</p>
+          <a class="text-link" href="#projects">Watch Now <span aria-hidden="true">↗</span></a>
+        </div>
+        <a class="reel-art" href="#projects" aria-label="Explore the showreel and featured projects">
+          <svg viewBox="0 0 720 390" role="img" aria-label="Neon city at sunset">
+            <defs>
+              <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#6d20ff"/>
+                <stop offset=".62" stop-color="#ff795d"/>
+                <stop offset="1" stop-color="#ffbd62"/>
+              </linearGradient>
+              <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#faff75"/>
+                <stop offset="1" stop-color="#ff8f61"/>
+              </linearGradient>
+            </defs>
+            <rect width="720" height="390" fill="url(#sky)"/>
+            <circle cx="526" cy="127" r="76" fill="url(#sun)"/>
+            <path d="M0 241 87 189l68 35 88-105 70 108 89-62 75 72 79-85 85 66 79-51v223H0Z" fill="#412071"/>
+            <path d="M0 285 95 222l83 58 66-73 95 87 76-71 83 44 90-67 86 60 46-28v158H0Z" fill="#211638"/>
+            <path d="M0 316h97v-54h74v91h55V237h88v128h71V282h69v83h71V222h81v143h55v-83h59v83H0Z" fill="#0c1020"/>
+            <g fill="#c9ff24" opacity=".9">
+              <path d="M116 279h12v20h-12zm24 0h12v20h-12zm110-18h14v22h-14zm24 0h14v22h-14zm151 37h13v23h-13zm26 0h13v23h-13zm139-43h13v22h-13zm25 0h13v22h-13z"/>
+            </g>
+            <path d="M0 366h720" stroke="#c9ff24" stroke-width="5"/>
+            <path d="M375 365c42-35 105-35 149 0" fill="none" stroke="#69e9ff" stroke-width="3" opacity=".75"/>
+          </svg>
+          <span class="play-button" aria-hidden="true">▶</span>
+          <span class="reel-caption">DESIGN <i>×</i> CODE <i>×</i> CREATE</span>
+        </a>
+        <span class="showreel-spark" aria-hidden="true">彡</span>
+      </section>
+
+      <section class="projects section-wrap" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Selected work, big ideas</p>
+            <h2 class="marker-heading" id="projects-title">FEATURED PROJECTS <span aria-hidden="true">〰</span></h2>
+          </div>
+          <a class="text-link" href="#contact">View All Projects <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="project-grid">
+          <a class="project-card" href="#contact">
+            <div class="project-art router-art">
+              <svg viewBox="0 0 480 300" role="img" aria-label="Glowing isometric smart router with neon circuits and a holographic interface">
+                <ellipse cx="241" cy="249" rx="161" ry="22" fill="#4d25b4" opacity=".65"/>
+                <path d="m112 171 126-72 140 80-131 77Z" fill="#a43dff" stroke="#090a12" stroke-width="8" stroke-linejoin="round"/>
+                <path d="m112 171 135 78v-89l-135-75Z" fill="#5420b9" stroke="#090a12" stroke-width="8" stroke-linejoin="round"/>
+                <path d="m247 249 131-70v-90l-131 71Z" fill="#25105e" stroke="#090a12" stroke-width="8" stroke-linejoin="round"/>
+                <path d="M162 171v32m29-18v35m116-58v35m31-52v33" stroke="#c9ff24" stroke-width="7" stroke-linecap="round"/>
+                <path d="m174 141 25-14m28 26 21-12m56-35 22-13m-23 76 17-10" stroke="#69e9ff" stroke-width="5" stroke-linecap="round"/>
+                <path d="M196 83c7-42 76-55 105-19m-96-4c20-22 53-27 77-15" fill="none" stroke="#69e9ff" stroke-width="4" stroke-linecap="round"/>
+                <circle cx="249" cy="80" r="7" fill="#c9ff24"/>
+                <path d="M189 75h116v43H189z" fill="#120b31" fill-opacity=".83" stroke="#69e9ff" stroke-width="3"/>
+                <path d="M204 105h24m8-12h20m9 12h33" stroke="#c9ff24" stroke-width="4" stroke-linecap="round"/>
+                <circle cx="340" cy="211" r="5" fill="#c9ff24"/>
+              </svg>
+              <span class="art-label">01 / CONNECTED SYSTEMS</span>
+            </div>
+            <div class="project-meta"><span><strong>RUN!</strong><small>2D Animation</small></span><span class="project-arrow" aria-hidden="true">↗</span></div>
+          </a>
+
+          <a class="project-card" href="#contact">
+            <div class="project-art security-art">
+              <svg viewBox="0 0 480 300" role="img" aria-label="Developer at glowing dual monitors with charts and a large security shield">
+                <path d="M240 31c-45 31-76 39-105 42v74c0 68 44 104 105 133 61-29 105-65 105-133V73c-29-3-60-11-105-42Z" fill="#4b1c99" stroke="#c9ff24" stroke-width="7" stroke-linejoin="round"/>
+                <path d="M240 59c-33 22-57 28-80 30v57c0 50 31 78 80 104 49-26 80-54 80-104V89c-23-2-47-8-80-30Z" fill="#14102e" stroke="#69e9ff" stroke-width="3"/>
+                <path d="m205 143 23 23 49-54" fill="none" stroke="#c9ff24" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M77 213h133v-81H77zm193 0h133v-81H270z" fill="#101525" stroke="#090a12" stroke-width="9"/>
+                <path d="M88 199v-51h43v51zm52 0v-29h40v29zm141 0v-26h39v26zm47 0v-42h61v42z" fill="#21173d"/>
+                <path d="M96 188h26m-26-14h31m-31-14h16m120 94v-36m-31 39h63" stroke="#69e9ff" stroke-width="5" stroke-linecap="round"/>
+                <path d="M126 169h7v15h-7zm20-8h7v23h-7zm145 19h7v13h-7zm17-11h7v24h-7zm18-9h7v33h-7z" fill="#c9ff24"/>
+                <path d="m201 219 39-26 39 26" fill="#e9a879" stroke="#090a12" stroke-width="8" stroke-linejoin="round"/>
+                <path d="M210 229h60l-16 19h-29Z" fill="#7124ff" stroke="#090a12" stroke-width="6" stroke-linejoin="round"/>
+              </svg>
+              <span class="art-label">02 / BUILT TO PROTECT</span>
+            </div>
+            <div class="project-meta"><span><strong>DAYDREAMS</strong><small>Motion Graphics</small></span><span class="project-arrow" aria-hidden="true">↗</span></div>
+          </a>
+
+          <a class="project-card" href="#contact">
+            <div class="project-art robotics-art">
+              <svg viewBox="0 0 480 300" role="img" aria-label="Chunky robotic arm assembling a glowing component controlled by a tablet">
+                <path d="M122 233h148v32H122z" fill="#281257" stroke="#090a12" stroke-width="9"/>
+                <path d="m149 221 40-70 49 26-42 72Z" fill="#7124ff" stroke="#090a12" stroke-width="9" stroke-linejoin="round"/>
+                <circle cx="190" cy="153" r="26" fill="#c9ff24" stroke="#090a12" stroke-width="9"/>
+                <path d="m197 135 36-61 40 23-35 67Z" fill="#b347ff" stroke="#090a12" stroke-width="9" stroke-linejoin="round"/>
+                <circle cx="244" cy="81" r="22" fill="#69e9ff" stroke="#090a12" stroke-width="8"/>
+                <path d="m252 65 18-34 14 8-11 39m-27-1-4-37-16 2 5 42" fill="#d1ff4c" stroke="#090a12" stroke-width="7" stroke-linejoin="round"/>
+                <path d="m267 192 42-28 52 30-43 30Z" fill="#fdbb62" stroke="#090a12" stroke-width="8" stroke-linejoin="round"/>
+                <path d="m267 192 51 32v36l-51-31Z" fill="#d66d43" stroke="#090a12" stroke-width="8" stroke-linejoin="round"/>
+                <path d="m318 224 43-30v35l-43 31Z" fill="#9b3f4d" stroke="#090a12" stroke-width="8" stroke-linejoin="round"/>
+                <path d="M85 175h59l-9 89H73Z" fill="#1a1740" stroke="#090a12" stroke-width="9" stroke-linejoin="round"/>
+                <rect x="86" y="190" width="48" height="57" rx="4" fill="#101c34" stroke="#69e9ff" stroke-width="3"/>
+                <path d="M96 207h28m-28 11h20m-20 11h25" stroke="#c9ff24" stroke-width="4" stroke-linecap="round"/>
+                <circle cx="244" cy="81" r="48" fill="none" stroke="#69e9ff" stroke-width="3" stroke-dasharray="5 8"/>
+                <path d="M300 84h73" stroke="#c9ff24" stroke-width="3" stroke-dasharray="6 8"/>
+              </svg>
+              <span class="art-label">03 / ROBOTICS + CONTROL</span>
+            </div>
+            <div class="project-meta"><span><strong>LOST SIGNAL</strong><small>Animated Short</small></span><span class="project-arrow" aria-hidden="true">↗</span></div>
+          </a>
+
+          <a class="project-card" href="#contact">
+            <div class="project-art terminal-art">
+              <svg viewBox="0 0 480 300" role="img" aria-label="Hooded security tester facing terminal windows filled with neon code">
+                <path d="M0 226h480v74H0z" fill="#131526"/>
+                <rect x="49" y="51" width="165" height="111" rx="8" fill="#10172a" stroke="#69e9ff" stroke-width="4"/>
+                <rect x="255" y="39" width="171" height="123" rx="8" fill="#10172a" stroke="#c9ff24" stroke-width="4"/>
+                <path d="M65 77h126m-126 17h104m-104 17h119m-119 17h82m99-47h131m-131 18h113m-113 18h128m-128 18h91" stroke="#69e9ff" stroke-width="4" stroke-linecap="round"/>
+                <path d="M65 77h32m158 54h49m-242-3h39m212-35h42" stroke="#c9ff24" stroke-width="4" stroke-linecap="round"/>
+                <path d="M164 300v-72c0-52 31-84 75-84s75 32 75 84v72Z" fill="#090a12" stroke="#090a12" stroke-width="10"/>
+                <path d="M157 193c7-49 36-75 82-75 46 0 75 26 82 75-18-14-36-21-56-21-26 0-50 7-72 20-13 7-25 9-36 1Z" fill="#191624" stroke="#07080d" stroke-width="9"/>
+                <path d="m179 184 21 51m101-50-20 51" stroke="#7124ff" stroke-width="7" stroke-linecap="round"/>
+                <path d="M102 223h-44m325 0h46" stroke="#c9ff24" stroke-width="4" stroke-dasharray="5 9"/>
+                <circle cx="240" cy="226" r="4" fill="#69e9ff"/>
+              </svg>
+              <span class="art-label">04 / SECURITY RESEARCH</span>
+            </div>
+            <div class="project-meta"><span><strong>GROOVY TUNES</strong><small>Music Video</small></span><span class="project-arrow" aria-hidden="true">↗</span></div>
+          </a>
+        </div>
+      </section>
+
+      <section class="skills section-wrap" aria-labelledby="skills-title">
+        <div class="skills-heading">
+          <p class="section-kicker">Tools of the trade</p>
+          <h2 class="marker-heading" id="skills-title">SKILLS</h2>
+        </div>
+        <ul class="skill-list">
+          <li><span class="skill-icon code-icon" aria-hidden="true">&lt;/&gt;</span>VS Code</li>
+          <li><span class="skill-icon figma-icon" aria-hidden="true">Fi</span>Figma</li>
+          <li><span class="skill-icon cad-icon" aria-hidden="true">SW</span>SolidWorks</li>
+          <li><span class="skill-icon ps-icon" aria-hidden="true">Ps</span>Adobe Photoshop</li>
+          <li><span class="skill-icon blender-icon" aria-hidden="true">◉</span>Blender</li>
+          <li><span class="skill-icon wireshark-icon" aria-hidden="true">Ws</span>Wireshark</li>
+          <li><span class="skill-icon python-icon" aria-hidden="true">Py</span>Python / React</li>
+        </ul>
+      </section>
+
+      <section class="about section-wrap" id="about" aria-labelledby="about-title">
+        <div class="about-art" role="img" aria-label="Black and white illustrated portrait">
+          <svg viewBox="0 0 430 430" aria-hidden="true">
+            <circle cx="215" cy="215" r="174" fill="#1b1640" stroke="#c9ff24" stroke-width="4"/>
+            <path d="M76 364c15-89 61-125 139-125s124 36 139 125" fill="#f1eee9" stroke="#080910" stroke-width="11" stroke-linejoin="round"/>
+            <path d="m161 239 54 77 55-77-35-21h-39Z" fill="#c9ff24" stroke="#080910" stroke-width="9" stroke-linejoin="round"/>
+            <path d="M126 132c0-74 39-111 90-111 61 0 94 42 94 111v39c0 72-37 116-94 116-58 0-90-45-90-116Z" fill="#f0b98e" stroke="#080910" stroke-width="11"/>
+            <path d="M119 140c-4-82 36-130 100-130 64 0 100 43 100 108-26-7-47-22-58-43-26 30-70 47-134 45Z" fill="#17151d" stroke="#080910" stroke-width="11" stroke-linejoin="round"/>
+            <path d="M155 166c11-8 24-8 34 0m56 0c11-8 24-8 34 0" fill="none" stroke="#15131a" stroke-width="8" stroke-linecap="round"/>
+            <path d="M194 206c17 13 36 13 53 0" fill="none" stroke="#6b4440" stroke-width="7" stroke-linecap="round"/>
+            <path d="m140 281 20-8 54 78-35 20-42-56m153-34-20-8-54 78 35 20 42-56" fill="#17151d" stroke="#080910" stroke-width="8" stroke-linejoin="round"/>
+            <path d="m54 115 21-22m-8 68 30-4m264-55 23-18m-8 79 29 1" stroke="#c9ff24" stroke-width="7" stroke-linecap="round"/>
+            <path d="M55 342c13 8 23 9 34 4m252 0c12 4 24 3 35-5" fill="none" stroke="#69e9ff" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+          <span class="portrait-note">MAKING<br>THINGS<br>MATTER</span>
+          <span class="about-scribble" aria-hidden="true">〰〰</span>
+        </div>
+        <div class="about-copy">
+          <p class="section-kicker">A mind for systems. An eye for detail.</p>
+          <h2 class="marker-heading" id="about-title">ABOUT ME</h2>
+          <p>I'm Yassu, a multidisciplinary systems architect who designs, codes, and secures advanced hardware and software. I bridge the physical and digital worlds to build fluid user experiences with robust protection.</p>
+          <a class="text-link" href="#contact">Know More About Me <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-wrap" id="contact">
+      <div class="footer-callout">LET'S MAKE<br>SOMETHING <em>DOPE!</em></div>
+      <div class="contact-info">
+        <a href="mailto:An-Yassu-kei@proton.me"><span aria-hidden="true">✉</span> An-Yassu-kei@proton.me</a>
+        <span><span aria-hidden="true">⌖</span> Algeria</span>
+      </div>
+      <div class="footer-bottom">
+        <p>GOOD IDEAS DESERVE TO BE BUILT.</p>
+        <div class="socials" aria-label="Social links">
+          <a href="mailto:An-Yassu-kei@proton.me" aria-label="Email Yassu">✉</a>
+          <a href="#home" aria-label="Back to top">↑</a>
+          <a href="#projects" aria-label="View projects">↗</a>
+        </div>
+        <a class="back-to-top" href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script>
+      const menuButton = document.querySelector(".menu-toggle");
+      const navigation = document.querySelector(".site-nav");
+
+      menuButton.addEventListener("click", () => {
+        const isOpen = menuButton.getAttribute("aria-expanded") === "true";
+        menuButton.setAttribute("aria-expanded", String(!isOpen));
+        menuButton.setAttribute("aria-label", isOpen ? "Open navigation" : "Close navigation");
+        navigation.classList.toggle("is-open", !isOpen);
+      });
+
+      navigation.addEventListener("click", (event) => {
+        if (event.target instanceof Element && event.target.closest("a")) {
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.setAttribute("aria-label", "Open navigation");
+          navigation.classList.remove("is-open");
+        }
+      });
+    </script>
+  </body>
 </html>
