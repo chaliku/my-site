@@ -379,7 +379,7 @@ button:focus-visible {
   margin-inline: auto;
 }
 
-.showreel {
+.prototype-demo {
   position: relative;
   display: grid;
   min-height: 365px;
@@ -389,7 +389,7 @@ button:focus-visible {
   padding-block: 5rem 6rem;
 }
 
-.showreel-copy {
+.prototype-demo-copy {
   max-width: 350px;
 }
 
@@ -415,7 +415,7 @@ button:focus-visible {
   color: var(--lime);
 }
 
-.showreel-copy > p:not(.section-kicker) {
+.prototype-demo-copy > p:not(.section-kicker) {
   margin: 1.25rem 0 1.1rem;
   color: var(--muted);
   font-size: .88rem;
@@ -515,7 +515,7 @@ button:focus-visible {
   font-style: normal;
 }
 
-.showreel-spark {
+.prototype-demo-spark {
   position: absolute;
   right: -1.4rem;
   bottom: 3.8rem;
@@ -943,7 +943,7 @@ button:focus-visible {
     width: 86vw;
   }
 
-  .showreel {
+  .prototype-demo {
     grid-template-columns: .8fr 1.2fr;
     gap: 2rem;
   }
@@ -1129,21 +1129,21 @@ button:focus-visible {
     width: 86vw;
   }
 
-  .showreel {
+  .prototype-demo {
     grid-template-columns: 1fr;
     gap: 1.7rem;
     padding-block: 3.5rem 4rem;
   }
 
-  .showreel-copy {
+  .prototype-demo-copy {
     max-width: 440px;
   }
 
-  .showreel-copy > p:not(.section-kicker) {
+  .prototype-demo-copy > p:not(.section-kicker) {
     max-width: 390px;
   }
 
-  .showreel-spark {
+  .prototype-demo-spark {
     right: -.7rem;
     bottom: 2.3rem;
   }
